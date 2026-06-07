@@ -242,10 +242,17 @@ const RULE_DEFS = [
 // fake-ip 白名单基础域名（这些域名走真实 DNS，不返回虚假 IP）
 const FAKEIP_FILTER_BASE = [
   "localhost", "*.lan", "*.local", "*.arpa", "*.invalid", "*.test",
+  "+.localhost", "+.direct", "+.example", "+.home.arpa",
   "captive.apple.com", "+.push.apple.com", "+.apple.com", "+.icloud.com",
-  "connectivitycheck.gstatic.com", "msftconnecttest.com", "msftncsi.com",
-  "+.ntp.org", "time.*.com", "ntp.*.com", "+.mi.com", "+.xiaomi.com", "+.market.xiaomi.com",
-  "+.oray.com", "+.sunlogin.net", "+.openai.*", "+.srv.nintendo.net", "+.stun.playstation.net",
+  "connectivitycheck.gstatic.com", "+.msftconnecttest.com", "msftconnecttest.com", "+.msftncsi.com", "msftncsi.com",
+  "time.*.com", "time.*.gov", "time.*.edu.cn", "time.*.apple.com", "time-ios.apple.com",
+  "time1.*.com", "time2.*.com", "time3.*.com", "time4.*.com", "time5.*.com", "time6.*.com", "time7.*.com",
+  "+.ntp.org", "ntp.*.com","ntp1.*.com", "ntp2.*.com", "ntp3.*.com", "ntp4.*.com", "ntp5.*.com", "ntp6.*.com", "ntp7.*.com",
+  "+.time.edu.cn", "+.ntp.org.cn", "+.pool.ntp.org", "time1.cloud.tencent.com",
+  "+.mi.com", "+.xiaomi.com", "+.market.xiaomi.com",
+  "+.oray.com", "+.sunlogin.net",
+  "stun.*.*", "stun.*.*.*", "+.stun.*.*", "+.stun.*.*.*.*", "+.stun.*.*.*.*.*",
+  "+.openai.*", "+.srv.nintendo.net", "+.stun.playstation.net",
   "+.xboxlive.com", "report-v2.samsung.japps.cn",
 ];
 
