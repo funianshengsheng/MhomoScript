@@ -150,7 +150,8 @@ const RULESET_URL = {
   connectivity_check: RULESET_META_BASE + "geosite/connectivity-check.mrs",
   category_ntp: RULESET_META_BASE + "geosite/category-ntp.mrs",
   DownloadApps: "https://" + GITHUB_RAW_HOST + "/AIsouler/MyClash/main/Rules/DownloadApps.txt",
-  captcha: "https://" + GITHUB_RAW_HOST + "/echs-top/proxy/refs/heads/main/mrs/domain/captcha.mrs",
+  captcha: "https://" + GITHUB_RAW_HOST + "/funianshengsheng/MihomoScript/main/rule/Captcha.mrs",
+  webrtc: "https://" + GITHUB_RAW_HOST + "/funianshengsheng/MihomoScript/main/rule/WebRTC.list",
   speedtest_domain: RULESET_META_BASE + "geosite/ookla-speedtest.mrs",
   ai: RULESET_DUSTIN_BASE + "ai.mrs",
   gfw: RULESET_DUSTIN_BASE + "gfw.mrs",
@@ -179,7 +180,6 @@ const RULESET_URL = {
   geolocation_cn: RULESET_META_BASE + "geosite/geolocation-cn.mrs",
   add_direct_domain: "https://" + GITHUB_RAW_HOST + "/Seven1echo/Yaml/refs/heads/main/rules/Seven1_Direct_Domain.mrs",
   cn_additional_domain: "https://static-file-global.353355.xyz/rules/cn-additional-list.mrs",
-  webrtc: "https://raw.githubusercontent.com/GitMetaio/Surfing/main/box_bll/clash/rules/WebRTC.list",
   cn_domain: RULESET_META_BASE + "geosite/cn.mrs",
   cn_ip: RULESET_META_BASE + "geoip/cn.mrs",
 };
