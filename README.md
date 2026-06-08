@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/funianshengsheng/MihomoScript/main/Script.js
 ## 功能特性
 
 - **无 DNS 泄露**：内置完整 DNS 分流配置，国内域名走国内 DNS，国际域名走加密 DNS
-- **无 WebRTC 泄露**：规则层屏蔽 UDP 3478 端口，防止 WebRTC 暴露真实 IP
+- **无 WebRTC 泄露**：规则层屏蔽 UDP 3478 等端口以及相关域名，防止 WebRTC 暴露真实 IP
 - **自动节点分类**：按地区自动识别归类节点，支持香港、台湾、日本、韩国、新加坡、美国、欧洲
 - **Fake-IP 模式**：启用 Fake-IP + 黑名单过滤，国内常用应用不受影响
 - **规则集模式**：采用高效 `rule-set` + `.mrs` 格式规则，按需加载，无冗余规则
@@ -72,7 +72,7 @@ https://raw.githubusercontent.com/funianshengsheng/MihomoScript/main/Script.js
 
 感谢以下项目：
 
-- [AIsouler/MyClash](https://github.com/AIsouler/MyClash) — 参考Host以及DNS配置等
+- [AIsouler/MyClash](https://github.com/AIsouler/MyClash) — 参考Host以及DNS配置
 - [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) — 官方Mihomo内核
 - [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat) — 分流规则集数据
 - [DustinWin/ruleset_geodata](https://github.com/DustinWin/ruleset_geodata) — 分流规则集数据
