@@ -538,7 +538,7 @@ function buildDNS(nameserverPolicy, fakeIpFilter) {
     "tls-version": { min: "1.2", max: "1.3" },
     "enhanced-mode": "fake-ip",
     "fake-ip-range": "198.18.0.1/16",
-    "fake-ip-ttl": 60,
+    "fake-ip-ttl": 1,
     "fake-ip-filter-mode": "blacklist",
     "fake-ip-filter": fakeIpFilter,
     "respect-rules": true,
